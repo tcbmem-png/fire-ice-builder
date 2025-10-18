@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
- "@supabase/Bolt Database-js": "^2.57.4", },
+ "@supabase/Bolt Database-js": "^2.57.4",},
   "dependencies": {
     "@supabase/Bolt Database-js": "^2.57.4",
     "lucide-react": "^0.344.0",
