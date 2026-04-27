@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: #09090c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(212, 167, 77, 0.08), transparent 26%),
+    linear-gradient(180deg, #09090c 0%, #0d0e13 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  header,
+  #mvp-start,
+  #prompts,
+  button,
+  a {
+    display: none !important;
+  }
+
+  #style-brief {
+    border: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+}
