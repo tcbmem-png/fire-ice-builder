@@ -41,10 +41,19 @@ textarea {
   }
 
   header,
-  #mvp-start,
-  #prompts,
   button,
   a {
+    display: none !important;
+  }
+
+  section {
+    border: 0 !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    padding: 0 !important;
+  }
+
+  section:not(:last-of-type) {
     display: none !important;
   }
 
